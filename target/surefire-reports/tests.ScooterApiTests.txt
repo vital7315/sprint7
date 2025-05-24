@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: tests.ScooterApiTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 67.144 s <<< FAILURE! - in tests.ScooterApiTests
+loginWithoutRequiredFieldsFails(tests.ScooterApiTests)  Time elapsed: 60.602 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<504>
+	at tests.ScooterApiTests.loginWithoutRequiredFieldsFails(ScooterApiTests.java:113)
+
+createDuplicateCourierFails(tests.ScooterApiTests)  Time elapsed: 0.694 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...гин уже используется[]> but was:<...гин уже используется[. Попробуйте другой.]>
+	at tests.ScooterApiTests.createDuplicateCourierFails(ScooterApiTests.java:53)
+
